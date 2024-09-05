@@ -6,11 +6,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListFragment">
+    tools:context=".view.ListFragment">
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recipeRecycyleView"
+        android:id="@+id/recipeRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="1dp"
@@ -29,7 +29,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         android:clickable="true"
-        android:onClick="newAdd"
+        android:onClick="addNew"
         android:src="@android:drawable/ic_input_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
